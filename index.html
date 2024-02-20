@@ -7,6 +7,8 @@
     <title>Home | Ricardo Nunes</title>
     <script src="https://kit.fontawesome.com/e5ba4664ed.js" crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
@@ -37,7 +39,13 @@
             <div class="cards-container">
                 <div class="cards">
                     <div>
-                        <img src="images/GameHub_11zon.jpg" alt="Photo of GameHub website">
+                        <div class="modal-container">
+                            <img src="images/GameHub_11zon.jpg" alt="Photo of GameHub website">
+                        </div>
+                        <div id="imageModal" class="modal">
+                            <span class="closeModal">&times;</span>
+                            <img class="modal-content" id="modalImage" alt="Image zoom">
+                        </div>
                         <h2>GameHub</h2>
                         <p>The project explore utilizing the WordPress REST API</p>
                         <p>for content management, allowing users to create and</p>
@@ -59,11 +67,16 @@
                     </div>
                 </div>
             </div>
-
             <div class="cards-container">
                 <div class="cards">
                     <div>
-                        <img src="images/ScienceMuseum_11zon.jpg" alt="Photo of Science Museum website">
+                        <div class="modal-container-2">
+                            <img src="images/ScienceMuseum_11zon.jpg" alt="Photo of Science Museum website">
+                        </div>
+                        <div id="imageModal" class="modal">
+                            <span class="closeModal">&times;</span>
+                            <img class="modal-content" id="modalImage" alt="Image zoom">
+                        </div>
                         <h2>Science Museum</h2>
                         <p>Community Science Museum project covers design</p>
                         <p>principles, project management, communication</p>
@@ -86,11 +99,16 @@
                     </div>
                 </div>
             </div>
-
             <div class="cards-container">
                 <div class="cards">
                     <div>
-                        <img src="images/BeyondBorders_11zon.jpg" alt="Photo of Beyond Borders website">
+                        <div class="modal-container-3">
+                            <img src="images/BeyondBorders_11zon.jpg" alt="Photo of Beyond Borders website"> 
+                        </div>
+                        <div id="imageModal" class="modal">
+                            <span class="closeModal">&times;</span>
+                            <img class="modal-content" id="modalImage" alt="Image zoom">
+                        </div>
                         <h2>Beyond Borders</h2>
                         <p>Beyond Borders description</p>
                         <div class="social-media-icons">
@@ -116,5 +134,6 @@
     <footer>
         <div class="footer"> All rights reserved &copy; - Ricardo Nunes</div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
