@@ -23,13 +23,12 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     list-style: none;
     align-items: center;
     padding: 16px;
@@ -84,6 +83,8 @@ h1 {
 }
 
 h2 {
+    display: flex;
+    justify-content: center;
     margin-left: 5px;
     color: black;
     font-size: 18px;
