@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(73, 67, 67, 0.95);
+    background: rgba(124, 115, 115, 0.95);
     height: 100%;
     width: 100%;
     z-index: 1500;
@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%);
     max-width: 900px;
     height: 560px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
  .modal-content {
@@ -32,4 +32,5 @@
   font-size: 60px;
   color: #ffffff;
   cursor: pointer;
+  margin-left: 30px;
  }

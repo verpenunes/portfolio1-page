@@ -2,10 +2,17 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     color: white;
     background-color: black;
     font-family: "Lexend", sans-serif;
@@ -63,6 +70,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-top: 130px;
+    margin-bottom: 280px;
     gap: 30px;
 }
 
@@ -73,7 +81,6 @@ h1 {
     background-color: lightgrey;
     border-radius: 5px;
     border: 5px solid grey
-
 }
 
 .cards img {
@@ -92,7 +99,7 @@ h2 {
 }
 
 .cards p {
-    margin: 5px;
+    margin: 6px;
     font-size: 12px;
     text-align: justify;
     padding: 0;
@@ -105,7 +112,6 @@ h2 {
     justify-content: space-evenly;
     padding: 22px;
     gap: 40px;
-  
 }
 
 .social-media-icons a {
@@ -127,32 +133,33 @@ h2 {
 .icon span {
     color: black;
     margin-right: 5px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .fa-brands, .fa-solid {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 37px;
+    font-size: 35px;
     color: black;
     cursor: pointer;
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
     background: white;
     border-radius: 50%;
 }
 
 .fa-solid {
     background: none;
-    font-size: 28px;
+    font-size: 26px;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-}
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #171717;
+    color: #ffffff;
+    font-size: 16px;
+  }

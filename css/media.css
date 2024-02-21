@@ -1,0 +1,25 @@
+@media screen and (min-width: 300px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+}
