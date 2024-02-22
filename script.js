@@ -1,3 +1,4 @@
+/* Modal */
 const modal = document.getElementById("imageModal");
 const modalImg = document.getElementById("modalImage");
 const closeButton = document.querySelector(".closeModal");
@@ -41,3 +42,14 @@ window.addEventListener("click", (e) => {
         closeModal();
     }
 });
+
+/* Nav Menu */
+function toggleMenu() {
+    const menuMobile = document.getElementById("menu-mobile")
+
+    if(menuMobile.className === "menu-mobile-active") {
+        menuMobile.className = "menu-mobile"
+    } else {
+        menuMobile.className = "menu-mobile-active"
+    }
+}

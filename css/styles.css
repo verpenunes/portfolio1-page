@@ -57,6 +57,64 @@ li a {
     text-decoration: underline 1.8px white;
 }
 
+/* Navigation Mobil Menu */
+.button-mobile {
+    display: none;
+    align-self: flex-start;
+    align-items: center;
+    margin: 18px;
+    background: transparent;
+    color: #ffffff;
+    border: 0;
+}
+
+.button-mobile i {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-mobile-active {
+    width: 100vw;
+    height: 100vh;
+    background-color: #171717;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.menu-mobile-active button {
+    background-color: transparent;
+    border: 0;
+    color: inherit;
+    margin-bottom: 16px;
+}
+
+.menu-mobile-active button > span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.mobile-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* Home Page - Portfolio */
 h1 {
     display: flex;
@@ -225,6 +283,7 @@ footer img {
 footer a {
     margin: 16px;
 }
+
 
 
 

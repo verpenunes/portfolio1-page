@@ -16,6 +16,19 @@
         width: 330px;
         height: 430px;
     }
+
+    header nav {
+        display: none;
+    }
+
+    .button-mobile {
+        display: flex;
+    }
+
+    nav span {
+        display: flex;
+        justify-content: start;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -33,6 +46,18 @@
 
     .container {
         flex-direction: column;
+    }
+
+    header nav {
+        display: flex;
+    }
+
+    .button-mobile {
+        display: none;
+    }
+
+    .menu-mobile-active {
+        display: none;
     }
 }
 
@@ -52,5 +77,13 @@
     .container {
         flex-direction: row;
     }   
+
+    header nav {
+        display: flex;
+    }
+
+    .button-mobile {
+        display: none;
+    }
 }
 
