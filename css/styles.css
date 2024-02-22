@@ -69,8 +69,13 @@ li a {
 }
 
 .button-mobile i {
-    font-size: 30px;
+    font-size: 38px;
     margin-right: 5px;
+    margin-left: 38px;
+}
+
+.button-mobile span {
+    font-size: 18px;
 }
 
 .menu-mobile {
