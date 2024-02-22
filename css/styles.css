@@ -81,7 +81,7 @@ h1 {
     height: 440px;
     background-color: lightgrey;
     border-radius: 5px;
-    border: 5px solid grey
+    border: 3px solid grey
 }
 
 .cards img {
@@ -102,18 +102,21 @@ h2 {
 
 .cards p {
     margin: 8px;
-    font-size: 15px;
+    font-size: 13px;
     text-align:center;
     padding: 0;
     color: black;
+    line-height: 11px;
 }
 
 .social-media-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 28px;
+    padding: 38px;
     gap: 30px;
+    margin-top: 32px;
+    margin-bottom: 3px;
 }
 
 .social-media-icons a {
@@ -133,7 +136,7 @@ h2 {
 }
 
 .icon span {
-    color: black;
+    color: rgb(93, 87, 87);
     margin-right: 4px;
     font-size: 11px;
 }

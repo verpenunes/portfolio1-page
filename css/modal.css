@@ -34,3 +34,19 @@
   cursor: pointer;
   margin-left: 30px;
  }
+
+ @media screen and (min-width: 300px) {
+  .modal img {
+      width: 400px;
+      height: 300px;
+      object-fit: fill;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .modal img {
+      width: 600px;
+      height: 400px;
+      object-fit: cover;
+  }
+}
