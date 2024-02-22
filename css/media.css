@@ -1,25 +1,46 @@
+/* Home Page - Portfolio */
 @media screen and (min-width: 300px) {
+    li a {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
     }
-
 }
 
 @media screen and (min-width: 600px) {
+    li a {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
     }
-
- 
 }
 
 @media screen and (min-width: 800px) {
+    li a {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
     .container {
         display: flex;
         flex-direction: row;
-    }
-
-    
+    }   
 }
+

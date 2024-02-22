@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%);
     max-width: 900px;
     height: 560px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
  .modal-content {
@@ -39,14 +39,20 @@
   .modal img {
       width: 400px;
       height: 300px;
-      object-fit: fill;
   }
 }
 
 @media screen and (min-width: 600px) {
   .modal img {
-      width: 600px;
+      width: 580px;
       height: 400px;
-      object-fit: cover;
   }
 }
+
+@media screen and (min-width: 800px) {
+  .modal img {
+      width: 800px;
+      height: 500px;
+  }
+}
+
