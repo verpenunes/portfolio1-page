@@ -19,6 +19,7 @@
     max-width: 900px;
     height: 560px;
     object-fit: fill;
+    cursor: none;
 }
 
  .modal-content {
@@ -37,8 +38,8 @@
 
  @media screen and (min-width: 300px) {
   .modal img {
-      width: 400px;
-      height: 300px;
+      width: 360px;
+      height: 260px;
   }
 }
 

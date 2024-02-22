@@ -5,12 +5,16 @@
     }
 
     h1 {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .container {
-        display: flex;
         flex-direction: column;
+    }
+
+    .cards {
+        width: 330px;
+        height: 430px;
     }
 }
 
@@ -23,8 +27,11 @@
         font-size: 46px;
     }
 
+    .cards {
+        width: 380px;
+    }
+
     .container {
-        display: flex;
         flex-direction: column;
     }
 }
@@ -38,8 +45,11 @@
         font-size: 50px;
     }
 
+    .cards {
+        width: 340px;
+    }
+
     .container {
-        display: flex;
         flex-direction: row;
     }   
 }

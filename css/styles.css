@@ -62,14 +62,20 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 60px;
+    text-transform: uppercase;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
 }
 
 .container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 30px;
     margin-bottom: 240px;
     gap: 32px;
 }
@@ -145,18 +151,45 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 35px;
+    font-size: 33px;
     color: black;
     cursor: pointer;
-    width: 36px;
-    height: 36px;
+    width: 34px;
+    height: 35px;
     background: white;
     border-radius: 50%;
 }
 
 .fa-solid {
     background: none;
-    font-size: 26px;
+    font-size: 25px;
+}
+
+/* About me Page */
+.tech-container {
+    text-transform: uppercase;
+}
+
+.tech-logo img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    transition: transform .2s;
+}
+
+.tech-logo img:hover {
+    transform: scale(1.1);
+}
+
+.tech-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-logo p {
+    padding-right: 18px;
 }
 
 /* Footer */
