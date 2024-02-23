@@ -5,7 +5,7 @@
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 20px;
         padding-top: 0px;
         margin-top: 40px;
     }
@@ -88,4 +88,30 @@
         display: none;
     }
 }
+
+/* About me - Portfolio */
+@media screen and (min-width: 300px) {
+    .tech-container {
+        padding: 80px;
+    }
+
+    .tech-container p, .tech-logo span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .tech-container p, .tech-logo span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .tech-container p, .tech-logo span {
+        font-size: 18px;
+    }
+}
+
+
+
 
