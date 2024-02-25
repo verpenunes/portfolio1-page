@@ -53,3 +53,4 @@ function toggleMenu() {
         menuMobile.className = "menu-mobile-active"
     }
 }
+
