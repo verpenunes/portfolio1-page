@@ -1,6 +1,6 @@
 /* Modal */
-const modal = document.getElementById("imageModal");
-const modalImg = document.getElementById("modalImage");
+const modal = document.querySelector(".modal");
+const modalImg = document.querySelector(".modal-content");
 const closeButton = document.querySelector(".closeModal");
 
 function openModal(imageSrc) {
