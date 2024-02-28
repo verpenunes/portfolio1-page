@@ -115,13 +115,14 @@ li a {
   font-size: 14px;
 }
 
-.mobile-text {
+.mobile-text > span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   color: #ffffff;
   font-size: 22px;
+  margin-bottom: 30px;
 }
 
 /* Home Page - Portfolio */
