@@ -1,131 +1,130 @@
 /* Home Page - Portfolio */
 @media screen and (min-width: 300px) {
-    li a {
-        font-size: 18px;
-    }
+  li a {
+    font-size: 1.12rem;
+  }
 
-    h1 {
-        font-size: 20px;
-        padding-top: 0px;
-        margin-top: 40px;
-    }
+  h1 {
+    font-size: 1.3rem;
+    padding-top: 0px;
+    margin-top: 40px;
+  }
 
-    .container {
-        flex-direction: column;
-    }
+  .container {
+    flex-direction: column;
+  }
 
-    .cards {
-        width: 330px;
-        height: 430px;
-    }
+  .cards {
+    width: 330px;
+    height: 430px;
+  }
 
-    header nav {
-        display: none;
-    }
+  header nav {
+    display: none;
+  }
 
-    .button-mobile {
-        display: flex;
-        cursor: pointer;
-    }
+  .button-mobile {
+    display: flex;
+    cursor: pointer;
+  }
 
-    .mobile-text {
-        transition: transform .2s;
-    }
+  .mobile-text {
+    transition: transform 0.2s;
+  }
 
-    .mobile-text:hover {
-        transform: scale(1.1);
-    }
+  .mobile-text:hover {
+    transform: scale(1.1);
+  }
 
-    nav span {
-        display: flex;
-        justify-content: start;
-        cursor: pointer;
-    }
+  nav span {
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+  }
 
-    nav span a {
-        margin: 10px;
-    }
+  nav span a {
+    margin: 10px;
+  }
 }
 
 @media screen and (min-width: 600px) {
-    li a {
-        font-size: 20px;
-    }
+  li a {
+    font-size: 1.2rem;
+  }
 
-    h1 {
-        font-size: 46px;
-    }
+  h1 {
+    font-size: 2.85rem;
+  }
 
-    .cards {
-        width: 380px;
-    }
+  .cards {
+    width: 380px;
+  }
 
-    .container {
-        flex-direction: column;
-    }
+  .container {
+    flex-direction: column;
+  }
 
-    header nav {
-        display: flex;
-    }
+  header nav {
+    display: flex;
+  }
 
-    .button-mobile {
-        display: none;
-    }
+  .button-mobile {
+    display: none;
+  }
 
-    .menu-mobile-active {
-        display: none;
-    }
+  .menu-mobile-active {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 800px) {
-    li a {
-        font-size: 22px;
-    }
+  li a {
+    font-size: 1.4rem;
+  }
 
-    h1 {
-        font-size: 50px;
-    }
+  h1 {
+    font-size: 3rem;
+  }
 
-    .cards {
-        width: 340px;
-    }
+  .cards {
+    width: 340px;
+  }
 
-    .container {
-        flex-direction: row;
-    }   
+  .container {
+    flex-direction: row;
+  }
 
-    header nav {
-        display: flex;
-    }
+  header nav {
+    display: flex;
+  }
 
-    .button-mobile {
-        display: none;
-    }
+  .button-mobile {
+    display: none;
+  }
 }
 
 /* About me - Portfolio */
 @media screen and (min-width: 300px) {
-    .tech-container {
-        padding: 80px;
-    }
+  .tech-container {
+    padding: 80px;
+  }
 
-    .tech-container p, .tech-logo span {
-        font-size: 12px;
-    }
+  .tech-container p,
+  .tech-logo span {
+    font-size: 0.75rem;
+  }
 }
 
 @media screen and (min-width: 600px) {
-    .tech-container p, .tech-logo span {
-        font-size: 14px;
-    }
+  .tech-container p,
+  .tech-logo span {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (min-width: 800px) {
-    .tech-container p, .tech-logo span {
-        font-size: 18px;
-    }
+  .tech-container p,
+  .tech-logo span {
+    font-size: 1.13rem;
+  }
 }
-
-
-
-

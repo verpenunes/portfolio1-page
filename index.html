@@ -1,174 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ricardo Verpe Nunes portfolio page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ricardo Verpe Nunes portfolio page" />
     <title>Projects | Ricardo Nunes</title>
-    <script src="https://kit.fontawesome.com/e5ba4664ed.js" crossorigin="anonymous"></script>
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/media.css" rel="stylesheet">
-    <link href="css/modal.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/e5ba4664ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <link href="css/modal.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html" class="underline">Projects</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav> 
-        <button class="button-mobile" onclick="toggleMenu()">
-            <i class="material-symbols-outlined">menu</i>
-            <span>Menu</span>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" class="underline">Projects</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button-mobile" onclick="toggleMenu()">
+        <i class="material-symbols-outlined">menu</i>
+        <span>Menu</span>
+      </button>
+      <nav class="menu-mobile" id="menu-mobile">
+        <button onclick="toggleMenu()">
+          <span>
+            <i class="material-symbols-outlined">close</i>
+            <span class="text-close">close</span>
+          </span>
         </button>
-        <nav class="menu-mobile" id="menu-mobile">
-            <button onclick="toggleMenu()">
-                <span>
-                    <i class="material-symbols-outlined">close</i>
-                    <span class="text-close">close</span>
-                </span>
-            </button>
-            <a href="index.html" class="mobile-text">
-                <span>Projects</span>
-            </a>
-            <a href="about.html" class="mobile-text">
-                <span>About</span>
-            </a>
-            <a href="contact.html" class="mobile-text">
-                <span>Contact</span>
-            </a>
-        </nav>
+        <a href="index.html" class="mobile-text">
+          <span>Projects</span>
+        </a>
+        <a href="about.html" class="mobile-text">
+          <span>About</span>
+        </a>
+        <a href="contact.html" class="mobile-text">
+          <span>Contact</span>
+        </a>
+      </nav>
     </header>
     <main>
-        <h1>Hi, I'm Ricardo Nunes</h1>
-        <span class="welcome">Welcome to my portfolio.</span>
-        <section class="container">
-            <div class="cards-container">
-                <div class="cards">
-                    <div>
-                        <div class="modal-container">
-                            <img src="images/GameHub.avif" alt="Photo of GameHub website">
-                        </div>
-                        <div class="modal">
-                            <span class="closeModal">&times;</span>
-                            <img src="images/GameHub.avif" class="modal-content" alt="Image zoom">
-                        </div>
-                        <h2>GameHub</h2>
-                        <p>The project explore utilizing the WordPress
-                        <p>REST API for content management, allowing</p>
-                        <p>to create and manage API with JavaScript.</p>
-                        <div class="social-media-icons">
-                            <a href="https://github.com/Noroff-FEU-Assignments/cross-course-project-verpenunes" target="_blank">
-                                <div class="icon">
-                                    <span>GitHub</span>
-                                    <i class="fa-brands fa-github"></i>
-                                </div>
-                            </a>
-                            <a href="https://symphonious-gumdrop-46d236.netlify.app/" target="_blank">
-                                <div class="icon">
-                                    <span>Website</span>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+      <h1>Hi, I'm Ricardo Nunes</h1>
+      <span class="welcome">Welcome to my portfolio.</span>
+      <section class="container">
+        <div class="cards-container">
+          <div class="cards">
+            <div>
+              <div class="modal-container">
+                <img src="images/GameHub.avif" alt="Photo of GameHub website" />
+              </div>
+              <div class="modal">
+                <span class="closeModal">&times;</span>
+                <img
+                  src="images/GameHub.avif"
+                  class="modal-content"
+                  alt="Image zoom"
+                />
+              </div>
+              <h2>GameHub</h2>
+              <p>The project explore utilizing the WordPress</p>
+              <p>REST API for content management, allowing</p>
+              <p>to create and manage API with JavaScript.</p>
+              <div class="social-media-icons">
+                <a
+                  href="https://github.com/Noroff-FEU-Assignments/cross-course-project-verpenunes"
+                  target="_blank"
+                >
+                  <div class="icon">
+                    <span>GitHub</span>
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                </a>
+                <a
+                  href="https://symphonious-gumdrop-46d236.netlify.app/"
+                  target="_blank"
+                >
+                  <div class="icon">
+                    <span>Website</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
             </div>
-            <div class="cards-container">
-                <div class="cards">
-                    <div>
-                        <div class="modal-container-2">
-                            <img src="images/ScienceMuseum.avif" alt="Photo of Science Museum website">
-                        </div>
-                        <div class="modal">
-                            <span class="closeModal">&times;</span>
-                            <img src="images/ScienceMuseum.avif" class="modal-content" alt="Image zoom">
-                        </div>
-                        <h2>Community Science Museum</h2>
-                        <p>Science Museum project covers design</p>
-                        <p>principles, project management, communication</p>
-                        <p>technology, and HTML/CSS development.</p>
-                        <div class="social-media-icons">
-                            <a href="https://github.com/verpenunes/SemesterProject1" target="_blank">
-                                <div class="icon">
-                                    <span>GitHub</span>
-                                    <i class="fa-brands fa-github"></i>
-                                </div>
-                            </a>
-                            <a href="https://velvety-monstera-64ffbe.netlify.app/" target="_blank">
-                                <div class="icon">
-                                    <span>Website</span>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </div>
-                            </a>
-                        </div>
-    
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="cards-container">
+          <div class="cards">
+            <div>
+              <div class="modal-container-2">
+                <img
+                  src="images/ScienceMuseum.avif"
+                  alt="Photo of Science Museum website"
+                />
+              </div>
+              <div class="modal">
+                <span class="closeModal">&times;</span>
+                <img
+                  src="images/ScienceMuseum.avif"
+                  class="modal-content"
+                  alt="Image zoom"
+                />
+              </div>
+              <h2>Community Science Museum</h2>
+              <p>Science Museum project covers design</p>
+              <p>principles, project management, communication</p>
+              <p>technology, and HTML/CSS development.</p>
+              <div class="social-media-icons">
+                <a
+                  href="https://github.com/verpenunes/SemesterProject1"
+                  target="_blank"
+                >
+                  <div class="icon">
+                    <span>GitHub</span>
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                </a>
+                <a
+                  href="https://velvety-monstera-64ffbe.netlify.app/"
+                  target="_blank"
+                >
+                  <div class="icon">
+                    <span>Website</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
             </div>
-            <div class="cards-container">
-                <div class="cards">
-                    <div>
-                        <div class="modal-container-3">
-                            <img src="images/BeyondBorders.avif" alt="Photo of Beyond Borders website"> 
-                        </div>
-                        <div class="modal">
-                            <span class="closeModal">&times;</span>
-                            <img src="images/BeyondBorders.avif" class="modal-content" alt="Image zoom">
-                        </div>
-                        <h2>Beyond Borders</h2>
-                        <p>The project involves integrating an API from</p>
-                        <p>the WordPress installation and building</p>
-                        <p>the website with HTML, CSS, and JavaScript.</p>
-                        <div class="social-media-icons">
-                            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-verpenunes" target="_blank">
-                                <div class="icon">
-                                    <span>GitHub</span>
-                                    <i class="fa-brands fa-github"></i>
-                                </div>
-                            </a>
-                            <a href="https://comfy-capybara-ce2203.netlify.app/" target="_blank">
-                                <div class="icon">
-                                    <span>Website</span>
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </div>
-                            </a>
-                        </div>
-    
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="cards-container">
+          <div class="cards">
+            <div>
+              <div class="modal-container-3">
+                <img
+                  src="images/BeyondBorders.avif"
+                  alt="Photo of Beyond Borders website"
+                />
+              </div>
+              <div class="modal">
+                <span class="closeModal">&times;</span>
+                <img
+                  src="images/BeyondBorders.avif"
+                  class="modal-content"
+                  alt="Image zoom"
+                />
+              </div>
+              <h2>Beyond Borders</h2>
+              <p>The project involves integrating an API from</p>
+              <p>the WordPress installation and building</p>
+              <p>the website with HTML, CSS, and JavaScript.</p>
+              <div class="social-media-icons">
+                <a
+                  href="https://github.com/Noroff-FEU-Assignments/project-exam-1-verpenunes"
+                  target="_blank"
+                >
+                  <div class="icon">
+                    <span>GitHub</span>
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                </a>
+                <a
+                  href="https://comfy-capybara-ce2203.netlify.app/"
+                  target="_blank"
+                >
+                  <div class="icon">
+                    <span>Website</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="footer-container">
-            <p>All rights reserved &copy; 2024 - Ricardo Nunes</p>
-        </div>
-        <div class="logo-container">
-            <a href="https://www.linkedin.com/in/rinun/" target="_blank">
-                <img src="images/LinkedIn_icon.svg" alt="LinkedIn logo">
-            </a>
-            <a href="https://www.instagram.com/rinunes/" target="_blank">
-                <img src="images/Instagram_logo_2016.svg" class="logo-insta" alt="Instagram logo">
-            </a>    
-        </div>  
+      <div class="footer-container">
+        <p>All rights reserved &copy; 2024 - Ricardo Nunes</p>
+      </div>
+      <div class="logo-container">
+        <a href="https://www.linkedin.com/in/rinun/" target="_blank">
+          <img src="images/LinkedIn_icon.svg" alt="LinkedIn logo" />
+        </a>
+        <a href="https://www.instagram.com/rinunes/" target="_blank">
+          <img
+            src="images/Instagram_logo_2016.svg"
+            class="logo-insta"
+            alt="Instagram logo"
+          />
+        </a>
+      </div>
     </footer>
     <script src="/js/script.js"></script>
-</body>
+  </body>
 </html>
