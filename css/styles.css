@@ -259,6 +259,42 @@ h2 {
   padding-right: 18px;
 }
 
+/* Contact me page */
+.email {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.email:hover {
+  transform: scale(1.1);
+}
+
+.email a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #171717;
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 14px 90px;
+  margin-left: 450px;
+  margin-right: 450px;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.email span {
+  display: flex;
+  align-items: center;
+}
+
+.logo-gmail {
+  width: 40px;
+  height: 36px;
+}
+
 /* Footer */
 footer {
   display: flex;
