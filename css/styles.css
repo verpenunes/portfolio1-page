@@ -264,11 +264,6 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: center;
-  transition: transform 0.2s;
-}
-
-.email:hover {
-  transform: scale(1.1);
 }
 
 .email a {
@@ -283,6 +278,11 @@ h2 {
   margin-right: 450px;
   border-radius: 5px;
   gap: 10px;
+  transition: transform 0.3s;
+}
+
+.email a:hover {
+  transform: scale(1.1);
 }
 
 .email span {
@@ -291,7 +291,7 @@ h2 {
 }
 
 .logo-gmail {
-  width: 40px;
+  width: 36px;
   height: 36px;
 }
 
